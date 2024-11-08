@@ -5,14 +5,23 @@ This project implements a Convolutional Neural Network (CNN) model to classify d
 Table of Contents
 
 Overview
+
 Dataset
+
 Model Architecture
+
 Data Preprocessing
+
 Training and Evaluation
+
 Results
+
 Usage
+
 Dependencies
+
 License
+
 Overview
 
 Diabetic retinopathy is a complication of diabetes that affects the eyes. Early detection and treatment can prevent vision loss. This project classifies retinal images into categories of diabetic retinopathy or no DR.
@@ -26,8 +35,11 @@ Model Architecture
 The CNN architecture consists of:
 
 -Conv2D Layers: For feature extraction using convolutional filters.
+
 -MaxPooling Layers: For down-sampling, reducing dimensionality.
+
 -Batch Normalization: To stabilize and speed up training.
+
 -Fully Connected Layers: For classification based on extracted features.
 
 Data Preprocessing
