@@ -44,38 +44,53 @@ The CNN architecture consists of:
 
 Data Preprocessing
 
-Data Splitting: The dataset is divided into training, validation, and test sets using stratified sampling.
-Image Augmentation: The ImageDataGenerator is used to rescale images and provide real-time data augmentation during training.
-Directory Setup: The images are copied to train/validation/test directories for easy batching.
+-Data Splitting: The dataset is divided into training, validation, and test sets using stratified sampling.
+
+-Image Augmentation: The ImageDataGenerator is used to rescale images and provide real-time data augmentation during training.
+
+-Directory Setup: The images are copied to train/validation/test directories for easy batching.
 
 Training and Evaluation
+
 The model is trained on the processed dataset and evaluated using accuracy, loss, and F1 score metrics.
 
 Evaluation Metrics
 
 Accuracy
+
 Confusion Matrix: To visualize model performance across classes.
+
 F1 Score: To measure model performance, balancing precision and recall.
 
 Results
+
 The trained model achieved an accuracy of X% on the test dataset, with a promising F1 score.
 
 Usage
 To predict a class for a new image:
 
 python
-Copy code
+
 def predict_class(path):
     # Your image prediction function here
+    
 Run the function predict_class('path_to_image') with a retinal image to classify its diabetic retinopathy level.
 
 Dependencies
+
 TensorFlow
+
 Keras
+
 OpenCV
+
 Pandas
+
 NumPy
+
 Matplotlib
+
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
